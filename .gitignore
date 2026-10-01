@@ -1,0 +1,22 @@
+# KiCad backups, autosaves, locks and caches
+*-backups/
+_autosave-*
+\#auto_saved_files\#
+*.lck
+~*.lck
+*.bak
+*.kicad_prl
+fp-info-cache
+.history/
+
+# KiBot / release outputs (CI regenerates them)
+output/
+/*.zip
+
+# kicad-auto machine-local state (never committed)
+.kicad-auto/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
