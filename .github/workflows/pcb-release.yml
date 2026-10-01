@@ -16,8 +16,7 @@ permissions:
 
 env:
   OUT_DIR: output
-  # This repository keeps the KiCad project in a subdirectory, not at the root.
-  PROJECT: seeed-xiao-studio-nose-camera/rocket_nose_selfie_camera
+  PROJECT: rocket_nose_selfie_camera
 
 jobs:
   release:
